@@ -1,6 +1,6 @@
 # 리안헤어 원주 (RIAHN Hair Wonju)
 
-리안헤어 원주는 강원 원주 지역 리안헤어(RIAHN HAIR) 지점을 한곳에서 안내하는 통합 홈페이지입니다. 리안헤어는 25년 미용 전문 프랜차이즈로, 시술 전 1:1 상담으로 모질·두상·라이프스타일에 맞는 시술을 제안합니다. 현재 단관점(원주 단구동)이 안내되어 있으며, 각 지점 페이지에서 시술 가격·디자이너·오시는 길과 네이버 예약을 확인할 수 있습니다.
+리안헤어 원주는 강원 원주 지역 리안헤어(RIAHN HAIR) 지점을 한곳에서 안내하는 통합 홈페이지입니다. 리안헤어는 25년 미용 전문 프랜차이즈로, 시술 전 1:1 상담으로 모질·두상·라이프스타일에 맞는 시술을 제안합니다. 현재 단관점(원주 단구동)과 원주무실점(원주 무실동)이 안내되어 있으며, 각 지점 페이지에서 시술 가격·디자이너·오시는 길과 네이버 예약을 확인할 수 있습니다.
 
 ## 페이지
 
@@ -14,8 +14,18 @@
 - [단관점 갤러리](https://riahn-wonju.kr/dangwan/gallery/): 시술 스타일과 매장 외관·내부 사진
 - [단관점 자주 묻는 질문](https://riahn-wonju.kr/dangwan/faq/): 예약·할인·주차·영업시간·가격·이벤트 패키지
 - [단관점 오시는 길](https://riahn-wonju.kr/dangwan/location/): 주소, 찾아오는 길, 무료 주차, 영업시간
+- [무실점 홈](https://riahn-wonju.kr/musil/): 원주 무실동 미용실 소개, 대표 시술, 디자이너 미리보기
+- [무실점 커트 안내](https://riahn-wonju.kr/musil/cut/): 남자컷(샴푸 포함) 18,000원, 여자컷 23,000원, 앞머리컷·사이드뱅 각 5,000원
+- [무실점 펌 안내](https://riahn-wonju.kr/musil/perm/): 쉐도우펌·가르마·애즈펌·시스루·리프펌 80,000원, 디자인펌 100,000~200,000원(기장별), 셋팅펌·매직·볼륨매직 150,000~290,000원(기장별), 뿌리볼륨펌 추가 30,000원·단독 80,000원, 앞머리펌 20,000~30,000원, 다운펌 20,000원, 디자이너 이벤트 패키지
+- [무실점 염색 안내](https://riahn-wonju.kr/musil/color/): 여성 염색 100,000~250,000원(기장별), 뿌리염색 60,000원, 뿌리탈색 80,000원, 남성염색 60,000원, 남성탈색 70,000원, 발레아쥬·옴브레(상담), 디자이너 이벤트 패키지
+- [무실점 클리닉·두피케어](https://riahn-wonju.kr/musil/clinic/): 클리닉 100,000~250,000원(기장별), 올라플렉스 30,000원, 리차지 50,000원, 남성 두피클리닉 60,000원, 여성 두피 80,000원
+- [무실점 디자이너 소개](https://riahn-wonju.kr/musil/designers/): 군주 점장(하이레이어드컷·레이어드펌·복구펌), 영석 실장(퍼스널컬러 진단·저손상 탈색), 아온(리프컷·투블럭컷·리프펌·시스루펌), 채린(시스루댄디컷·아이롱펌·볼륨매직·다운펌), 수빈(레이어드컷·허쉬컷·태슬펌·복구펌), 유이(리프컷·시스루 쉐도우펌·애즈펌), 강수현(댄디컷·필러스컷·히피펌·셋팅펌)
+- [무실점 갤러리](https://riahn-wonju.kr/musil/gallery/): 시술 스타일과 매장 외관·내부 사진
+- [무실점 자주 묻는 질문](https://riahn-wonju.kr/musil/faq/): 예약·주차·영업시간·가격·이벤트 패키지·퍼스널 컬러
+- [무실점 오시는 길](https://riahn-wonju.kr/musil/location/): 주소, 전용 주차장·무삼공원 주차장, 영업시간
 - [리안헤어 원주 인재채용](https://riahn-wonju.kr/recruit/): 지점별 채용 안내 (지점 카드 → 지점 채용 페이지)
 - [단관점 인재채용](https://riahn-wonju.kr/dangwan/recruit/): 단관점 헤어디자이너(경력 2명, 월 260~300만원·인센티브 40%)·헤어스탭(신입 2명·경력 2명, 월 216만원 이상) 상시 모집, 리안 미용학원 5단계 직무 교육, 채용 담당 권위호 대표 010-3122-9770
+- [무실점 인재채용](https://riahn-wonju.kr/musil/recruit/): 무실점 헤어디자이너·헤어스탭 상시 모집 (모집 조건은 단관점과 같음)
 
 ## 지점
 
@@ -35,8 +45,24 @@
 - SNS: https://www.instagram.com/riahnhair_danguan/ / https://blog.naver.com/oll0114llo / https://m.place.naver.com/hairshop/38703772
 - 지점 도메인: https://riahn-dangwan.kr/ → https://riahn-wonju.kr/dangwan/
 
+### 리안헤어 원주무실점 (RIAHN Hair Musil)
+
+강원 원주시 봉바위길 1(무실동) 1층에 있는 미용실로, 2013년 오픈 이후 원주 무실동에서 운영하고 있습니다. 디자이너 7명이 남성 펌(시스루펌·리프펌·애즈펌·쉐도우펌)과 여성 레이어드펌·복구펌을 분야별로 전담하고, 1:1 퍼스널 컬러 진단을 바탕으로 저손상 탈색·염색을 제안합니다. 헤어스파·두피클리닉을 운영하며, 시술석 6석입니다. 단계동·우산동·태장동에서도 찾는 원주 무실동 미용실입니다.
+
+- 상호: 리안헤어 원주무실점 / 대표 김혜영 / 사업자등록번호 110-15-64270
+- 주소: 강원특별자치도 원주시 봉바위길 1 영빌라 1층
+- 전화: 033-743-7525
+- 영업시간: 매일 10:00~20:00 (연중무휴)
+- 예약: https://m.place.naver.com/hairshop/35296874/booking
+- 주차: 리안헤어 전용 주차장(무실동 숙이네포장마차 주차장, 무료), 무삼공원 주차장(2시간 무료, 주말·공휴일 무료)
+- 대표 시술·가격대: 커트 5,000~23,000원 / 펌·매직 20,000~290,000원 / 염색 60,000~250,000원 / 클리닉·두피 30,000~250,000원
+- 가격 방침: 기장별 정찰제, 추가 비용은 시술 전 사전 안내
+- 디자이너 이벤트 패키지(네이버 예약 이벤트가, 매장 상담 후 확정 금액으로 결제, 기간·조건에 따라 변경 가능): 군주 Pick 인스타감성 레이어드펌(군주) S 200,000→150,000원 / M 240,000→168,000원 / L 290,000→203,000원 / LL 340,000→238,000원; 탈색 무제한 골든 컬렉션(영석) S 210,000원 / M 260,000원 / L 310,000원 / LL 360,000원; 컬러 밸런싱 콤보 [뿌리탈색 + 컬러토닝](영석) S 138,000원 / M 158,000원 / L 178,000원 / LL 198,000원; 수현 Pick 젤리펌 패키지(강수현) S 200,000→150,000원 / M 240,000→168,000원 / L 290,000→203,000원 / LL 340,000→238,000원; 데일리무드 VOL 프로모션 (남성 전용)(강수현) 볼륨매직 190,000→125,000원; Women's 극락 듀오 패키지(수빈) 뿌리 Y-PACKAGE 140,000→112,000원 / 전체 Y-PACKAGE S 230,000→161,000원 / 전체 Y-PACKAGE M 280,000→196,000원 / 전체 Y-PACKAGE L 330,000→231,000원 / 전체 Y-PACKAGE LL 380,000→266,000원; Men's 극락 듀오 패키지(수빈) 128,000→102,000원; 데일리무드 IRON & VOL 프로모션 (남성 전용)(채린) 볼륨매직 190,000→125,000원 / 아이롱 220,000→125,000원; 느좋남 Man's perm 패키지(아온·유이) 150,000→76,000원; 시그니처 미니멀 패키지(아온·유이) 58,000→50,000원
+- SNS: https://blog.naver.com/khyfairy2037 / https://m.place.naver.com/hairshop/35296874
+- 지점 도메인: https://riahn-musil.kr/ → https://riahn-wonju.kr/musil/
+
 ## 다른 언어 (Other languages)
 
-- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, careers: https://riahn-wonju.kr/en/dangwan/recruit/)
-- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、採用：https://riahn-wonju.kr/ja/dangwan/recruit/）
-- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，招聘：https://riahn-wonju.kr/zh/dangwan/recruit/）
+- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, Musil branch: https://riahn-wonju.kr/en/musil/)
+- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、Musil 店：https://riahn-wonju.kr/ja/musil/）
+- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，Musil 店：https://riahn-wonju.kr/zh/musil/）

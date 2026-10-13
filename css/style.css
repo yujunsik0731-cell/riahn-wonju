@@ -530,3 +530,13 @@ html[lang="ja"] body,html[lang="zh-CN"] body{word-break:normal;overflow-wrap:any
   .mobile-nav{top:100%}
 }
 @media(max-width:959px){.logo .branch{display:none}.fixed-bar .lbl{white-space:nowrap}}
+
+/* 원주무실점 추가 (2026-10-13): 인스타 DM 준비 중 안내 · 자격 분류 제목 · 할인 없는 패키지 가격 */
+.toast{position:fixed;left:50%;bottom:calc(var(--bar-h) + env(safe-area-inset-bottom) + 14px);transform:translate(-50%,8px);z-index:200;width:max-content;max-width:calc(100vw - 32px);
+  background:var(--ink);color:#fff;font-size:14px;font-weight:600;padding:11px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(62,54,46,.25);
+  opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility .2s;text-align:center}
+.toast.show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+@media(min-width:960px){.toast{bottom:110px}}
+.designer-body .certs li.cert-cat{padding-left:0;margin-top:8px;font-weight:700;color:var(--ink);letter-spacing:.06em}
+.designer-body .certs li.cert-cat::before{content:none}
+.event-prices strong.reg,.event-price strong.reg{color:var(--ink)}

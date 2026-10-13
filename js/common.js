@@ -2,6 +2,8 @@
 
 // ── 공통 지점 목록 (지점 추가는 여기 한 곳만) ─────────────────────────────
 // 완성된 지점만 넣는다(「준비 중」 금지). pages = 그 지점에 있는 페이지 경로.
+// instagram = 지점 인스타그램 계정(예: "riahnhair_musil"). 빈 값이면 하단 「인스타 DM」 버튼은 이동하지 않고 「준비 중」 안내를 띄운다.
+//             계정이 생기면 여기 값만 넣고 생성기(gen.py)를 다시 돌리면 DM 링크·푸터·sameAs 가 바뀐다.
 // _tools/wonju/gen.py 가 BEGIN~END 사이 JSON 을 읽어 기본 HTML 링크·PC 드롭다운·푸터를 만든다.
 /* RIAHN_BRANCHES:BEGIN */
 var RIAHN_SITE = {
@@ -11,6 +13,10 @@ var RIAHN_SITE = {
   "branches": [
     {"id": "dangwan",
      "name": {"ko": "단관점", "en": "Dangwan", "ja": "Dangwan", "zh": "Dangwan"},
+     "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]},
+    {"id": "musil",
+     "name": {"ko": "무실점", "en": "Musil", "ja": "Musil", "zh": "Musil"},
+     "instagram": "",
      "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]}
   ]
 };
@@ -93,4 +99,23 @@ var RIAHN_SITE = {
     row.scrollLeft += (r.left - rr.left) - (rr.width - r.width) / 2;
     row.style.scrollBehavior = '';
   }
+})();
+
+// 인스타 DM 「준비 중」 안내: data-soon 이 있는 버튼은 이동하지 않고 화면 아래에 짧게 표시 (alert 창 사용 안 함)
+(function(){
+  var btns = document.querySelectorAll('[data-soon]');
+  if(!btns.length) return;
+  var toast = document.createElement('div');
+  toast.className = 'toast'; toast.setAttribute('role', 'status'); toast.setAttribute('aria-live', 'polite');
+  document.body.appendChild(toast);
+  var timer;
+  btns.forEach(function(b){
+    b.addEventListener('click', function(e){
+      e.preventDefault();
+      toast.textContent = b.getAttribute('data-soon');
+      toast.classList.add('show');
+      clearTimeout(timer);
+      timer = setTimeout(function(){ toast.classList.remove('show'); }, 2500);
+    });
+  });
 })();
