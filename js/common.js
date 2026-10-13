@@ -1,5 +1,21 @@
 // 리안헤어 원주 (통합 홈페이지) - 공통 스크립트
 
+// ── 공통 지점 목록 (지점 추가는 여기 한 곳만) ─────────────────────────────
+// 완성된 지점만 넣는다(「준비 중」 금지). pages = 그 지점에 있는 페이지 경로.
+// _tools/wonju/gen.py 가 BEGIN~END 사이 JSON 을 읽어 기본 HTML 링크·PC 드롭다운·푸터를 만든다.
+/* RIAHN_BRANCHES:BEGIN */
+var RIAHN_SITE = {
+  "group": {"name": {"ko": "원주 전체", "en": "All Wonju", "ja": "原州すべて", "zh": "原州全部"},
+            "pages": ["", "recruit/"]},
+  "label": {"ko": "지점", "en": "Branches", "ja": "店舗", "zh": "门店"},
+  "branches": [
+    {"id": "dangwan",
+     "name": {"ko": "단관점", "en": "Dangwan", "ja": "Dangwan", "zh": "Dangwan"},
+     "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]}
+  ]
+};
+/* RIAHN_BRANCHES:END */
+
 // 모바일 햄버거 메뉴
 (function(){
   var btn = document.querySelector('.menu-btn');
@@ -40,5 +56,41 @@
     io.observe(video);
   }else{
     video.play().catch(function(){});
+  }
+})();
+
+// 모바일 지점 탭 바: 공통 지점 목록으로 칩을 그리고, 현재 지점 칩을 화면 안으로
+// (JS 가 꺼져 있으면 생성기가 만든 기본 <a> 링크가 그대로 작동한다)
+(function(){
+  var bar = document.querySelector('.branch-tabs');
+  if(!bar || typeof RIAHN_SITE === 'undefined') return;
+  var row = bar.querySelector('.branch-tabs-row');
+  var m = location.pathname.match(/^\/(en|ja|zh)\//);
+  var lang = m ? m[1] : 'ko';
+  var pre = m ? '/' + lang + '/' : '/';
+  var rest = location.pathname.slice(pre.length).replace(/index\.html$/, '');
+  var cur = null, sub = rest;
+  RIAHN_SITE.branches.forEach(function(b){
+    if(rest === b.id + '/' || rest.indexOf(b.id + '/') === 0){ cur = b.id; sub = rest.slice(b.id.length + 1); }
+  });
+  function chip(href, text, active){
+    var a = document.createElement('a');
+    a.className = 'branch-chip';
+    a.href = href; a.textContent = text;
+    if(active) a.setAttribute('aria-current', 'page');
+    return a;
+  }
+  var g = RIAHN_SITE.group;
+  row.innerHTML = '';
+  row.appendChild(chip(pre + (g.pages.indexOf(sub) >= 0 ? sub : ''), g.name[lang], cur === null));
+  RIAHN_SITE.branches.forEach(function(b){
+    row.appendChild(chip(pre + b.id + '/' + (b.pages.indexOf(sub) >= 0 ? sub : ''), b.name[lang], cur === b.id));
+  });
+  var on = row.querySelector('[aria-current="page"]');
+  if(on){   // 현재 지점 칩을 줄 가운데로 (화면 좌표 기준 · 애니메이션 없이 즉시)
+    var r = on.getBoundingClientRect(), rr = row.getBoundingClientRect();
+    row.style.scrollBehavior = 'auto';
+    row.scrollLeft += (r.left - rr.left) - (rr.width - r.width) / 2;
+    row.style.scrollBehavior = '';
   }
 })();
