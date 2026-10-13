@@ -14,7 +14,8 @@
 - [단관점 갤러리](https://riahn-wonju.kr/dangwan/gallery/): 시술 스타일과 매장 외관·내부 사진
 - [단관점 자주 묻는 질문](https://riahn-wonju.kr/dangwan/faq/): 예약·할인·주차·영업시간·가격·이벤트 패키지
 - [단관점 오시는 길](https://riahn-wonju.kr/dangwan/location/): 주소, 찾아오는 길, 무료 주차, 영업시간
-- [인재채용](https://riahn-wonju.kr/recruit/): 단관점 헤어디자이너(경력 2명, 월 260~300만원·인센티브 40%)·헤어스탭(신입 2명·경력 2명, 월 216만원 이상) 상시 모집, 리안 미용학원 5단계 직무 교육, 채용 담당 권위호 대표 010-3122-9770
+- [리안헤어 원주 인재채용](https://riahn-wonju.kr/recruit/): 지점별 채용 안내 (지점 카드 → 지점 채용 페이지)
+- [단관점 인재채용](https://riahn-wonju.kr/dangwan/recruit/): 단관점 헤어디자이너(경력 2명, 월 260~300만원·인센티브 40%)·헤어스탭(신입 2명·경력 2명, 월 216만원 이상) 상시 모집, 리안 미용학원 5단계 직무 교육, 채용 담당 권위호 대표 010-3122-9770
 
 ## 지점
 
@@ -36,6 +37,6 @@
 
 ## 다른 언어 (Other languages)
 
-- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, careers: https://riahn-wonju.kr/en/recruit/)
-- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、採用：https://riahn-wonju.kr/ja/recruit/）
-- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，招聘：https://riahn-wonju.kr/zh/recruit/）
+- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, careers: https://riahn-wonju.kr/en/dangwan/recruit/)
+- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、採用：https://riahn-wonju.kr/ja/dangwan/recruit/）
+- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，招聘：https://riahn-wonju.kr/zh/dangwan/recruit/）

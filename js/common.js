@@ -22,6 +22,11 @@
 (function(){
   var video = document.getElementById('heroVideo');
   if(!video) return;
+  // 모션 줄이기 설정 사용자: 영상을 멈추고 poster 이미지만 보여 준다
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    video.removeAttribute('autoplay'); video.pause(); video.preload = 'none'; video.load();
+    return;
+  }
   if('IntersectionObserver' in window){
     var io = new IntersectionObserver(function(entries){
       entries.forEach(function(e){

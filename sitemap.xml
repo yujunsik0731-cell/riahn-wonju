@@ -402,9 +402,49 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://riahn-wonju.kr/dangwan/location/"/>
   </url>
   <url>
-    <loc>https://riahn-wonju.kr/recruit/</loc>
+    <loc>https://riahn-wonju.kr/dangwan/recruit/</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://riahn-wonju.kr/zh/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+  </url>
+  <url>
+    <loc>https://riahn-wonju.kr/en/dangwan/recruit/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://riahn-wonju.kr/zh/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+  </url>
+  <url>
+    <loc>https://riahn-wonju.kr/ja/dangwan/recruit/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://riahn-wonju.kr/zh/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+  </url>
+  <url>
+    <loc>https://riahn-wonju.kr/zh/dangwan/recruit/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://riahn-wonju.kr/zh/dangwan/recruit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riahn-wonju.kr/dangwan/recruit/"/>
+  </url>
+  <url>
+    <loc>https://riahn-wonju.kr/recruit/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/recruit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/recruit/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/recruit/"/>
@@ -414,7 +454,7 @@
   <url>
     <loc>https://riahn-wonju.kr/en/recruit/</loc>
     <lastmod>2026-10-13</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/recruit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/recruit/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/recruit/"/>
@@ -424,7 +464,7 @@
   <url>
     <loc>https://riahn-wonju.kr/ja/recruit/</loc>
     <lastmod>2026-10-13</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/recruit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/recruit/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/recruit/"/>
@@ -434,7 +474,7 @@
   <url>
     <loc>https://riahn-wonju.kr/zh/recruit/</loc>
     <lastmod>2026-10-13</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="ko" href="https://riahn-wonju.kr/recruit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://riahn-wonju.kr/en/recruit/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://riahn-wonju.kr/ja/recruit/"/>

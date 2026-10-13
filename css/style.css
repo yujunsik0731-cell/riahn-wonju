@@ -507,3 +507,12 @@ html[lang="ja"] body,html[lang="zh-CN"] body{word-break:normal;overflow-wrap:any
 .recruit-edu li{background:var(--bg-card);border:1px solid var(--line-soft);padding:14px 18px;font-size:14px;color:var(--ink-soft)}
 .recruit-edu b{color:var(--ink);font-weight:700}
 .recruit-apply{margin-top:20px}
+
+/* 지점 홈: ABOUT 대표 사진 · 그룹 채용 안내 카드 */
+.home-about-photo{margin:18px auto 22px}
+.home-about-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft)}
+.recruit-branches{max-width:760px;margin:0 auto}
+
+/* 지점 메뉴 10개: 중간 폭(960~1179px)에서 줄바꿈 방지 */
+.gnb a,.branch-select summary{white-space:nowrap}
+@media(min-width:960px) and (max-width:1179px){.gnb{gap:12px;font-size:13.5px}.branch-select summary{padding:5px 9px}.logo .branch{display:none}}
