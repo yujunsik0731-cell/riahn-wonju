@@ -540,3 +540,6 @@ html[lang="ja"] body,html[lang="zh-CN"] body{word-break:normal;overflow-wrap:any
 .designer-body .certs li.cert-cat{padding-left:0;margin-top:8px;font-weight:700;color:var(--ink);letter-spacing:.06em}
 .designer-body .certs li.cert-cat::before{content:none}
 .event-prices strong.reg,.event-price strong.reg{color:var(--ink)}
+/* 무실점 원장 검수 (2026-10-17): 디자이너 휴무 · 디자이너 페이지 안내 */
+.designer-body .off{display:inline-block;margin:2px 0 8px;font-size:12.5px;font-weight:700;color:var(--accent-dark);background:var(--bg);border:1px solid var(--line-soft);padding:2px 9px;border-radius:999px}
+.designer-notice{margin:0 0 22px;padding:12px 16px;background:var(--bg-card);border:1px solid var(--line-soft);border-left:3px solid var(--accent);font-size:14px;color:var(--ink)}
