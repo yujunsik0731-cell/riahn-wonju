@@ -1,6 +1,6 @@
 # 리안헤어 원주 (RIAHN Hair Wonju)
 
-리안헤어 원주는 강원 원주 지역 리안헤어(RIAHN HAIR) 지점을 한곳에서 안내하는 통합 홈페이지입니다. 리안헤어는 25년 미용 전문 프랜차이즈로, 시술 전 1:1 상담으로 모질·두상·라이프스타일에 맞는 시술을 제안합니다. 현재 단관점(원주 단구동)과 원주무실점(원주 무실동)이 안내되어 있으며, 각 지점 페이지에서 시술 가격·디자이너·오시는 길과 네이버 예약을 확인할 수 있습니다.
+리안헤어 원주는 강원 원주 지역 리안헤어(RIAHN HAIR) 지점을 한곳에서 안내하는 통합 홈페이지입니다. 리안헤어는 25년 미용 전문 프랜차이즈로, 시술 전 1:1 상담으로 모질·두상·라이프스타일에 맞는 시술을 제안합니다. 현재 단관점(원주 단구동), 원주무실점(원주 무실동), 원주기업도시점(원주 기업도시), 원주단구롯데시네마점(원주 단구동 롯데시네마 인근)이 안내되어 있으며, 각 지점 페이지에서 시술 가격·디자이너·오시는 길과 네이버 예약을 확인할 수 있습니다.
 
 ## 페이지
 
@@ -23,9 +23,29 @@
 - [무실점 갤러리](https://riahn-wonju.kr/musil/gallery/): 시술 스타일과 매장 외관·내부 사진
 - [무실점 자주 묻는 질문](https://riahn-wonju.kr/musil/faq/): 예약·주차·영업시간·가격·이벤트 패키지·퍼스널 컬러
 - [무실점 오시는 길](https://riahn-wonju.kr/musil/location/): 주소, 전용 주차장·무삼공원 주차장, 영업시간
+- [원주기업도시점 홈](https://riahn-wonju.kr/gieopdosi/): 원주 기업도시 스타벅스 대각선 맞은편 미용실 소개, 대표 시술, 디자이너 미리보기
+- [원주기업도시점 커트 안내](https://riahn-wonju.kr/gieopdosi/cut/): 남자컷(샴푸 포함) 18,000원, 여자컷 23,000원, 앞머리 컷·사이드 뱅 각 5,000원, 드라이 25,000·30,000·35,000원(볼륨머리, 샴푸비 별도), 컷 예약은 네이버페이 결제 시에만 가능
+- [원주기업도시점 펌 안내](https://riahn-wonju.kr/gieopdosi/perm/): 쉐도우펌·가르마·애즈펌·시스루·리프펌 80,000원, 전체 다운펌(컷 별도) 80,000원, 스핀·호일·히피펌 100,000원, 볼륨매직 120,000원, 아이롱 150,000원, 일반펌 100,000~200,000원(기장별), 셋팅펌·매직 150,000~290,000원(기장별), 뿌리매직 150,000원(5cm 기준), 뿌리볼륨펌 추가 30,000원·단독 80,000원, 앞머리펌 20,000·30,000원
+- [원주기업도시점 염색 안내](https://riahn-wonju.kr/gieopdosi/color/): 여성 염색 100,000~250,000원(기장별), 여성 뿌리염색(컷 별도) 60,000원, 뿌리염색&컷 73,000원, 뿌리탈색(컷 별도) 80,000원, 뿌리탈색&컷 103,000원, 남성염색 60,000원, 염색&컷 68,000원, 남성탈색(컷 별도) 70,000원, 발레아쥬·옴브레(상담 후 진행)
+- [원주기업도시점 클리닉·두피케어](https://riahn-wonju.kr/gieopdosi/clinic/): 클리닉 100,000~250,000원(기장별), 올라플렉스 30,000원·리챠지 50,000원(펌·염색 시 옵션, 단독 불가), 남성 두피 60,000원, 두피&컷 68,000원, 여성 두피(컷 별도) 80,000원
+- [원주기업도시점 디자이너 소개](https://riahn-wonju.kr/gieopdosi/designers/): 현영 원장(복구펌·복구매직·악성곱슬케어), 정진 실장(복구펌·트렌드 컬러·탈색), 주희(주니어컷·댄디컷·울프컷·다운펌), 효민(빌드펌·히피펌·남성볼륨펌·레드염색), 이슬(아이롱·볼륨매직·필러스컷), 이현(여성보브컷·레이어드컷·퍼스널컬러)
+- [원주기업도시점 갤러리](https://riahn-wonju.kr/gieopdosi/gallery/): 시술 스타일과 매장 외관·내부 사진
+- [원주기업도시점 자주 묻는 질문](https://riahn-wonju.kr/gieopdosi/faq/): 예약·컷 예약 네이버페이·주차·영업시간·가격·할인·디자이너 지명
+- [원주기업도시점 오시는 길](https://riahn-wonju.kr/gieopdosi/location/): 주소, 찾아오는 길, 지하주차장 무료, 영업시간
+- [원주단구롯데시네마점 홈](https://riahn-wonju.kr/dangu/): 원주 단구동 롯데시네마 인근 미용실 소개, 대표 시술, 디자이너 미리보기
+- [원주단구롯데시네마점 커트 안내](https://riahn-wonju.kr/dangu/cut/): 남자컷(샴푸 포함) 18,000원, 여자컷 23,000원, 앞머리컷·사이드뱅 각 5,000원
+- [원주단구롯데시네마점 펌 안내](https://riahn-wonju.kr/dangu/perm/): 앞머리펌 20,000~30,000원, 다운펌 20,000원, 전체 다운펌 80,000원, 뿌리볼륨펌 30,000~80,000원, 일반펌 숏 100,000~롱롱 200,000원, 셋팅펌·매직셋팅·볼륨매직 숏 150,000~롱롱 290,000원, 남성 쉐도우펌·가르마·애즈펌·시스루·리프펌 80,000원, 스핀·호일·히피펌 100,000원, 볼륨매직 120,000원, 아이롱 150,000원
+- [원주단구롯데시네마점 염색 안내](https://riahn-wonju.kr/dangu/color/): 여성 컬러 숏 100,000~롱롱 250,000원, 뿌리염색(컷 별도) 60,000원, 뿌리염색&컷 73,000원, 뿌리탈색(컷 별도) 80,000원, 뿌리탈색&컷 103,000원, 남성염색 60,000원, 남성염색&컷 68,000원, 남성탈색(컷 별도) 70,000원, 발레아쥬·옴브레(상담 후 진행)
+- [원주단구롯데시네마점 클리닉·두피케어](https://riahn-wonju.kr/dangu/clinic/): 클리닉 숏 100,000~롱롱 250,000원, 올라플렉스 30,000원, 리챠지 50,000원, 남성 두피 60,000원, 남성 두피&컷 68,000원, 여성 두피(컷 별도) 80,000원
+- [원주단구롯데시네마점 디자이너 소개](https://riahn-wonju.kr/dangu/designers/): 이지 점장(악성 곱슬 교정·복구매직·레이어드펌·CS컬펌·허쉬컷), 태민(아이롱펌·남성 디자인펌·레이어드펌·레이어드컷), 아인(퍼스널컬러·탈색·염색·C컬펌·젤리펌·태슬컷), 건우(남성 볼륨매직·스핀스왈로펌·시스루리프펌·애즈펌·바버 디자인컷), 다미(하이레이어드컷·레이어드펌·빌드펌·히피펌·볼륨매직), 규리(시스루쉐도우펌·가일펌·애즈펌·볼륨매직·남성컷), 디자이너별 휴무일
+- [원주단구롯데시네마점 갤러리](https://riahn-wonju.kr/dangu/gallery/): 시술 스타일과 매장 외관·내부 사진
+- [원주단구롯데시네마점 자주 묻는 질문](https://riahn-wonju.kr/dangu/faq/): 예약·주차·영업시간·가격·디자이너 지명·결제 수단·반려동물·악성 곱슬
+- [원주단구롯데시네마점 오시는 길](https://riahn-wonju.kr/dangu/location/): 주소, GS주차장 무료 주차, 영업시간, 결제 수단
 - [리안헤어 원주 인재채용](https://riahn-wonju.kr/recruit/): 지점별 채용 안내 (지점 카드 → 지점 채용 페이지)
 - [단관점 인재채용](https://riahn-wonju.kr/dangwan/recruit/): 단관점 헤어디자이너(경력 2명, 월 260~300만원·인센티브 40%)·헤어스탭(신입 2명·경력 2명, 월 216만원 이상) 상시 모집, 리안 미용학원 5단계 직무 교육, 채용 담당 권위호 본부장 010-3122-9770
 - [무실점 인재채용](https://riahn-wonju.kr/musil/recruit/): 무실점 헤어디자이너·헤어스탭 상시 모집 (모집 조건은 단관점과 같음)
+- [원주단구롯데시네마점 인재채용](https://riahn-wonju.kr/dangu/recruit/): 원주단구롯데시네마점 헤어디자이너·헤어스탭 상시 모집 (모집 조건은 단관점과 같음)
+- [원주기업도시점 인재채용](https://riahn-wonju.kr/gieopdosi/recruit/): 원주기업도시점 헤어디자이너·헤어스탭 상시 모집 (모집 조건은 단관점과 같음)
 
 ## 지점
 
@@ -64,8 +84,41 @@
 - SNS: https://blog.naver.com/khyfairy2037 / https://m.place.naver.com/hairshop/35296874
 - 지점 도메인: https://riahn-musil.kr/ → https://riahn-wonju.kr/musil/
 
+### 리안헤어 원주기업도시점 (RIAHN Hair Gieopdosi)
+
+강원 원주시 지정면 도원로 20, 기업도시 스타벅스 대각선 맞은편 스타에듀빌딩(지정갈비 건물) 3층에 있는 원주 최대 규모의 미용실로, 2024년 오픈했으며 시술석 12석입니다. 디자이너 6명이 레이어드컷·히피펌·볼륨매직·아이롱펌·복구펌과 트렌드 컬러, 남성·주니어 커트, 중년 스타일과 혼주 머리까지 분야별로 시술합니다. 지정면·문막에서도 찾는 원주 기업도시 미용실입니다.
+
+- 상호: 리안헤어 원주기업도시점 / 대표 최현영 / 사업자등록번호 498-14-02309
+- 주소: 강원특별자치도 원주시 지정면 도원로 20 3층 303호, 304호 (스타에듀빌딩, 입구는 고래수산 옆·달리는 커피 바로 옆, 엘리베이터 이용 가능)
+- 전화: 033-743-2356
+- 영업시간: 매일 10:30~20:00 (연중무휴)
+- 예약: https://m.place.naver.com/hairshop/1068273500/booking
+- 주차: 무료 (건물 지하주차장, 시술 시간 동안 무료 · 입구는 스타에듀빌딩 1층 달리는 커피 옆)
+- 대표 시술·가격대: 커트 5,000~35,000원 / 펌·매직 20,000~290,000원 / 염색 60,000~250,000원 / 클리닉·두피 30,000~250,000원
+- 가격 방침: 기장별 정찰제, 추가 비용은 시술 전 사전 안내
+- 할인: 펌 & 클리닉 30% 할인, 염색 & 클리닉 30% 할인 / 컷 예약은 네이버페이 결제 시에만 가능
+- SNS: https://www.instagram.com/gieop_riahn/ / https://m.place.naver.com/hairshop/1068273500
+- 지점 도메인: https://riahn-gieopdosi.kr/ → https://riahn-wonju.kr/gieopdosi/
+
+### 리안헤어 원주단구롯데시네마점 (RIAHN Hair Dangu Lotte Cinema)
+
+강원 원주시 서원대로 405 1층, 단구동 롯데시네마 인근에 있는 미용실로 2019년 오픈했으며 시술석 8석입니다. 디자이너 6명이 퍼스널컬러·저손상 탈색, 악성곱슬 복구매직, 하이레이어드컷·레이어드펌, 아이롱펌, 남성 쉐도우펌·애즈펌 등 각자의 전문 분야로 1:1 상담 후 시술합니다. 네이버 기준 원주 고객 추천·소개 방문 1위, 재방문율 1위 매장이며, 개운동·명륜동에서도 가까운 원주 단구동 미용실입니다.
+
+- 상호: 리안헤어 원주단구롯데시네마점 / 대표 최이지 / 사업자등록번호 760-29-00684
+- 주소: 강원특별자치도 원주시 서원대로 405 1층 (단구동 롯데시네마 인근)
+- 전화: 033-763-7525
+- 영업시간: 매일 10:00~20:00 (연중무휴, 디자이너별 휴무일은 디자이너 소개 페이지 참고)
+- 예약: https://m.place.naver.com/hairshop/1832767786/booking
+- 주차: 서원대로403-14 GS주차장 무료 주차
+- 대표 시술·가격대: 커트 5,000~23,000원 / 펌·매직 20,000~290,000원 / 염색 60,000~250,000원 / 클리닉·두피 30,000~250,000원
+- 가격 방침: 기장별 정찰제, 추가 비용은 시술 전 사전 안내
+- 강점: 서프라리스(Supraliss) 손상 케어 제품, 모질 진단 기반 저손상 펌 프로세스, 월평균 고객 만족 리뷰 2,000건 이상
+- 결제·편의: 애플페이·지역화폐(지류형·카드형·모바일형)·제로페이·간편결제, 반려동물 동반 가능
+- SNS: https://www.instagram.com/riahn.0601/ / https://m.place.naver.com/hairshop/1832767786 / https://blog.naver.com/cs4201
+- 지점 도메인: https://riahn-dangu.kr/ → https://riahn-wonju.kr/dangu/
+
 ## 다른 언어 (Other languages)
 
-- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, Musil branch: https://riahn-wonju.kr/en/musil/)
-- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、Musil 店：https://riahn-wonju.kr/ja/musil/）
-- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，Musil 店：https://riahn-wonju.kr/zh/musil/）
+- English: https://riahn-wonju.kr/en/ — RIAHN Hair Wonju, hair salons in Wonju, Korea (Dangwan branch: https://riahn-wonju.kr/en/dangwan/, Musil branch: https://riahn-wonju.kr/en/musil/, Gieopdosi (Wonju Enterprise City) branch: https://riahn-wonju.kr/en/gieopdosi/, Dangu Lotte Cinema branch: https://riahn-wonju.kr/en/dangu/)
+- 日本語: https://riahn-wonju.kr/ja/ — 韓国・原州の美容室 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/ja/dangwan/、Musil 店：https://riahn-wonju.kr/ja/musil/、Gieopdosi 店：https://riahn-wonju.kr/ja/gieopdosi/、Dangu Lotte Cinema 店：https://riahn-wonju.kr/ja/dangu/）
+- 中文: https://riahn-wonju.kr/zh/ — 韩国原州美发沙龙 RIAHN Hair Wonju（Dangwan 店：https://riahn-wonju.kr/zh/dangwan/，Musil 店：https://riahn-wonju.kr/zh/musil/，Gieopdosi 店：https://riahn-wonju.kr/zh/gieopdosi/，Dangu Lotte Cinema 店：https://riahn-wonju.kr/zh/dangu/）

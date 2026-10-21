@@ -17,6 +17,14 @@ var RIAHN_SITE = {
     {"id": "musil",
      "name": {"ko": "무실점", "en": "Musil", "ja": "Musil", "zh": "Musil"},
      "instagram": "",
+     "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]},
+    {"id": "gieopdosi",
+     "name": {"ko": "원주기업도시점", "en": "Gieopdosi", "ja": "Gieopdosi", "zh": "Gieopdosi"},
+     "instagram": "gieop_riahn",
+     "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]},
+    {"id": "dangu",
+     "name": {"ko": "단구롯데시네마점", "en": "Dangu Lotte Cinema", "ja": "Dangu Lotte Cinema", "zh": "Dangu Lotte Cinema"},
+     "instagram": "riahn.0601",
      "pages": ["", "cut/", "perm/", "color/", "clinic/", "designers/", "gallery/", "faq/", "location/", "recruit/"]}
   ]
 };
