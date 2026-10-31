@@ -109,6 +109,127 @@ var RIAHN_SITE = {
   }
 })();
 
+// 디자이너 포트폴리오 크게 보기 (2026-10-31) — 카드의 .pf 영역 data-* 는 생성기(_tools/wonju/portfolio.py)가 넣는다
+// PC: 큰 사진 + 오른쪽 정보 · ← → · ESC · 바깥 클릭 / 모바일: 전체 화면 · 좌우 스와이프 · 뒤로 가기 = 창 닫기
+// 열린 동안 뒤 페이지 스크롤 잠금 · 포커스는 창 안에서만. JS 가 꺼져 있으면 썸네일 링크가 큰 사진 파일로 이동한다.
+(function(){
+  var blocks = document.querySelectorAll('.pf');
+  if(!blocks.length) return;
+  var m = document.createElement('div');
+  m.className = 'pf-modal'; m.hidden = true;
+  m.innerHTML = '<div class="pf-backdrop"></div>' +
+    '<div class="pf-dialog" role="dialog" aria-modal="true" aria-labelledby="pfTitle">' +
+      '<div class="pf-top"><p class="pf-top-title" id="pfTitle"><span class="pf-top-who"></span><span class="pf-count"></span></p>' +
+        '<button type="button" class="pf-close">✕</button></div>' +
+      '<div class="pf-stage"><button type="button" class="pf-nav pf-prev">‹</button><img class="pf-big" alt="">' +
+        '<button type="button" class="pf-nav pf-next">›</button></div>' +
+      '<div class="pf-info"><p class="pf-eyebrow"></p><h3 class="pf-menu-big"></h3>' +
+        '<div class="pf-des"><img class="pf-des-photo" alt="" width="64" height="80"><div><p class="pf-des-name"><b></b><small></small></p>' +
+          '<p class="pf-des-field"></p><p class="pf-des-award"></p></div></div>' +
+        '<p class="pf-others-h"></p><div class="pf-others"></div>' +
+        '<div class="pf-actions"><a class="btn btn-wood pf-book" target="_blank" rel="noopener"></a><a class="btn btn-outline pf-about"></a></div>' +
+      '</div></div>';
+  document.body.appendChild(m);
+  function q(s){ return m.querySelector(s); }
+  var big = q('.pf-big'), others = q('.pf-others'), items = [], idx = 0, opener = null, pushed = false, block = null;
+
+  function show(i){
+    idx = (i + items.length) % items.length;
+    var a = items[idx];
+    big.removeAttribute('src');
+    big.width = +a.getAttribute('data-w'); big.height = +a.getAttribute('data-h');
+    big.alt = a.getAttribute('data-alt');
+    big.src = a.getAttribute('data-full');                       // 큰 사진은 열 때 불러온다
+    q('.pf-menu-big').textContent = a.getAttribute('data-menu');
+    q('.pf-count').textContent = (idx + 1) + ' / ' + items.length;
+    others.querySelectorAll('button').forEach(function(b, k){ b.setAttribute('aria-current', k === idx ? 'true' : 'false'); });
+    var nx = items[(idx + 1) % items.length];                    // 다음 사진 미리 받기
+    (new Image()).src = nx.getAttribute('data-full');
+  }
+  function open(bl, i, from){
+    block = bl; opener = from;
+    items = Array.prototype.slice.call(bl.querySelectorAll('.pf-item'));
+    var d = function(k){ return bl.getAttribute('data-' + k) || ''; };
+    q('.pf-top-who').textContent = d('l-dialog');
+    q('.pf-close').setAttribute('aria-label', d('l-close'));
+    q('.pf-prev').setAttribute('aria-label', d('l-prev'));
+    q('.pf-next').setAttribute('aria-label', d('l-next'));
+    q('.pf-eyebrow').textContent = 'PORTFOLIO';
+    var ph = q('.pf-des-photo'); ph.src = d('photo'); ph.alt = d('who');
+    q('.pf-des-name b').textContent = d('name');
+    q('.pf-des-name small').textContent = d('title-text');
+    q('.pf-des-field').textContent = d('field');
+    q('.pf-des-award').textContent = d('award');
+    q('.pf-others-h').textContent = d('l-others');
+    var bk = q('.pf-book'); bk.href = d('book'); bk.textContent = d('l-book');
+    var ab = q('.pf-about'); ab.href = d('about'); ab.textContent = d('l-about');
+    others.innerHTML = '';
+    items.forEach(function(a, k){
+      var b = document.createElement('button'); b.type = 'button';
+      b.setAttribute('aria-label', a.getAttribute('data-menu'));
+      var im = a.querySelector('img').cloneNode(); im.alt = ''; b.appendChild(im);
+      b.addEventListener('click', function(){ show(k); });
+      others.appendChild(b);
+    });
+    show(i);
+    m.hidden = false;
+    document.documentElement.classList.add('pf-open');            // 뒤 페이지 스크롤 잠금
+    if(!pushed){ history.pushState({pfModal: true}, ''); pushed = true; }   // 뒤로 가기 = 창 닫기
+    q('.pf-close').focus();
+  }
+  var refocus = null;
+  function back(){ if(opener) opener.focus({preventScroll: true}); }
+  function close(fromPop){
+    if(m.hidden) return;
+    m.hidden = true;
+    document.documentElement.classList.remove('pf-open');
+    if(pushed && !fromPop){                                       // 추가한 기록을 되돌린 뒤(popstate) 연 썸네일로 포커스를 돌려준다
+      pushed = false; refocus = true; history.back();
+      setTimeout(function(){ if(refocus){ refocus = null; back(); } }, 400);
+    } else { pushed = false; back(); }
+  }
+  blocks.forEach(function(bl){
+    bl.querySelectorAll('[data-index]').forEach(function(a){
+      a.addEventListener('click', function(e){ e.preventDefault(); open(bl, +a.getAttribute('data-index'), a); });
+    });
+  });
+  q('.pf-close').addEventListener('click', function(){ close(false); });
+  q('.pf-backdrop').addEventListener('click', function(){ close(false); });
+  q('.pf-prev').addEventListener('click', function(){ show(idx - 1); });
+  q('.pf-next').addEventListener('click', function(){ show(idx + 1); });
+  q('.pf-about').addEventListener('click', function(e){         // 디자이너 소개: 창을 닫고 그 카드로 (추가한 기록을 이 주소로 바꿈)
+    e.preventDefault();
+    var h = this.getAttribute('href');
+    m.hidden = true; document.documentElement.classList.remove('pf-open');
+    if(pushed){ history.replaceState(null, '', h); pushed = false; } else { history.pushState(null, '', h); }
+    var t = document.querySelector(h); if(t){ t.scrollIntoView(); t.setAttribute('tabindex', '-1'); t.focus({preventScroll: true}); }
+  });
+  window.addEventListener('popstate', function(){
+    if(!m.hidden){ pushed = false; close(true); }                 // 뒤로 가기 버튼 = 창 닫기
+    else if(refocus){ refocus = null; back(); }
+  });
+  document.addEventListener('keydown', function(e){
+    if(m.hidden) return;
+    if(e.key === 'Escape'){ e.preventDefault(); close(false); }
+    else if(e.key === 'ArrowLeft'){ show(idx - 1); }
+    else if(e.key === 'ArrowRight'){ show(idx + 1); }
+    else if(e.key === 'Tab'){                                     // 포커스를 창 안에 가둔다
+      var f = Array.prototype.filter.call(m.querySelectorAll('button, a[href]'), function(x){ return x.offsetParent !== null; });
+      if(!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+      else if(!m.contains(document.activeElement)){ e.preventDefault(); first.focus(); }
+    }
+  });
+  var sx = 0, sy = 0, stage = q('.pf-stage');                     // 모바일 좌우 스와이프
+  stage.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, {passive: true});
+  stage.addEventListener('touchend', function(e){
+    var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+    if(Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) show(idx + (dx < 0 ? 1 : -1));
+  });
+})();
+
 // 인스타 DM 「준비 중」 안내: data-soon 이 있는 버튼은 이동하지 않고 화면 아래에 짧게 표시 (alert 창 사용 안 함)
 (function(){
   var btns = document.querySelectorAll('[data-soon]');
