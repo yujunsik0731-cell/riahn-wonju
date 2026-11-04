@@ -143,8 +143,15 @@ var RIAHN_SITE = {
     q('.pf-menu-big').textContent = a.getAttribute('data-menu');
     q('.pf-count').textContent = (idx + 1) + ' / ' + items.length;
     others.querySelectorAll('button').forEach(function(b, k){ b.setAttribute('aria-current', k === idx ? 'true' : 'false'); });
+    keepThumb();
     var nx = items[(idx + 1) % items.length];                    // 다음 사진 미리 받기
     (new Image()).src = nx.getAttribute('data-full');
+  }
+  function keepThumb(){                                          // 「다른 스타일」 칸에서 현재 사진 썸네일이 보이도록
+    var cb = others.children[idx]; if(!cb || m.hidden) return;
+    var c = cb.getBoundingClientRect(), o = others.getBoundingClientRect();
+    if(c.top < o.top) others.scrollTop += c.top - o.top;
+    else if(c.bottom > o.bottom) others.scrollTop += c.bottom - o.bottom;
   }
   function open(bl, i, from){
     block = bl; opener = from;
@@ -174,6 +181,7 @@ var RIAHN_SITE = {
     show(i);
     m.hidden = false;
     document.documentElement.classList.add('pf-open');            // 뒤 페이지 스크롤 잠금
+    others.scrollTop = 0; keepThumb();
     if(!pushed){ history.pushState({pfModal: true}, ''); pushed = true; }   // 뒤로 가기 = 창 닫기
     q('.pf-close').focus();
   }

@@ -614,6 +614,11 @@ html.pf-open,html.pf-open body{overflow:hidden}
 .pf-others img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .pf-actions{margin-top:auto;display:flex;flex-direction:column;gap:8px}
 .pf-actions .btn{width:100%}
+@media(min-width:720px){   /* 사진이 많은 디자이너: 「다른 스타일」 칸만 스크롤, 예약·소개 버튼은 항상 보이게 */
+  .pf-info{overflow:hidden}
+  .pf-others{flex:1 1 auto;min-height:96px;overflow-y:auto;align-content:start;padding-right:4px}
+  .pf-actions{flex:none;margin-top:0}
+}
 @media(max-width:719px){
   .pf-dialog{display:flex;flex-direction:column;width:100vw;height:100vh;height:100dvh;box-shadow:none;overflow-y:auto}
   .pf-top{position:sticky;top:0;z-index:2;flex:none;background:var(--bg-card);padding-left:16px}
